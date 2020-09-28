@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate, UITextFieldDelegate  {
    
     @IBOutlet weak var btnBack: UIButton!
     @IBOutlet weak var ScrollView: UIScrollView!
